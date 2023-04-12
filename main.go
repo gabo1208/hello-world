@@ -10,7 +10,7 @@ import (
 func handler(w http.ResponseWriter, r *http.Request) {
 	log.Println(r.RemoteAddr, r.Method, r.URL.String())
 
-	fmt.Fprintf(w, "hello world new commit\n")
+	fmt.Fprintf(w, "hello world new commit and newer\n")
 }
 
 func main() {
