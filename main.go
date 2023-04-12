@@ -10,7 +10,7 @@ import (
 func handler(w http.ResponseWriter, r *http.Request) {
 	log.Println(r.RemoteAddr, r.Method, r.URL.String())
 
-	fmt.Fprintf(w, "hello world to test commits\n")
+	fmt.Fprintf(w, "hello world from here :)\n")
 }
 
 func main() {
